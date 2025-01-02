@@ -1,0 +1,311 @@
+ /* banner start  */
+ #transport-support {
+     width: 100%;
+     height: 60vh;
+     background-color: var(--tertiory-color);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #transport-support .wrapper {
+     width: 80%;
+     height: 50vh;
+     /* background-color: rgb(48, 123, 19); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ #transport-support .wrapper .banner-container {
+     width: 100%;
+     height: 40vh;
+     gap: 10px;
+     /* background-color: burlywood; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #transport-support .wrapper .banner-container .transport-content {
+     width: 100%;
+     height: 40vh;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     /* background-color: brown; */
+ }
+
+ #transport-support .wrapper .banner-container .transport-content .efficent-transport {
+     font-size: var(--fs-40);
+ }
+
+ #transport-support .wrapper .banner-container .transport-content h1 {
+     width: 80%;
+     font-size: var(--fs-48);
+     /* background-color: brown; */
+ }
+
+ #transport-support .wrapper .banner-container .transport-img {
+     width: 100%;
+     object-fit: cover;
+ }
+
+ #transport-support .wrapper .banner-container .transport-img img {
+     width: 80%;
+ }
+
+ /* banner end */
+
+
+ /* health monitor start */
+ #health-monitor {
+     width: 100%;
+     height: 100vh;
+     /* background-color: chocolate; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     /* margin-top: 40px; */
+ }
+
+ #health-monitor .wrapper {
+     width: 80%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     /* background-color: burlywood; */
+     gap: 30px;
+ }
+
+ #health-monitor .wrapper .health-card {
+     width: 100%;
+     height: 100Vh;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     gap: 40px;
+     /* background-color: plum; */
+     /* margin-top: 20% ; */
+     flex-wrap: wrap;
+
+ }
+
+ #health-monitor .wrapper .health-card .card {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 30%;
+     height: 30%;
+     flex-direction: column;
+     gap: 30px;
+     margin-top: 30px;
+     background-color: var(--tertiory-color);
+     border-radius: 0px 0px 4px 4px;
+     -webkit-border-radius: 0px 0px 4px 4px;
+     -moz-border-radius: 0px 0px 4px 4px;
+     -ms-border-radius: 0px 0px 4px 4px;
+     -o-border-radius: 0px 0px 4px 4px;
+ }
+
+ #health-monitor .wrapper .health-card .card img {
+     width: 100%;
+     object-fit: cover;
+
+ }
+
+ #health-monitor .wrapper .health-card .card p {
+     width: 100%;
+     text-align: center;
+     margin-bottom: 20px;
+
+ }
+
+ /* health monitor end */
+
+ /* digital start*/
+ #doctor-monitor {
+     width: 100%;
+     height: 60vh;
+     /* background-color: beige; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #doctor-monitor .wrapper {
+     width: 80%;
+     height: 40vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+ }
+
+ #doctor-monitor .wrapper .digital-monitor {
+     width: 100%;
+     height: 40vh;
+     /* background-color: burlywood; */
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ #doctor-monitor .wrapper .digital-monitor h2 {
+     font-size: var(--fs-30);
+ }
+
+ #doctor-monitor .wrapper .digital-monitor p {
+     width: 150%;
+ }
+
+ #doctor-monitor .wrapper .digital-monitor-img {
+     width: 130%;
+     object-fit: cover;
+     margin-left: 30%;
+ }
+
+ #doctor-monitor .wrapper .digital-monitor-img img {
+     width: 90%;
+
+ }
+
+ /* digital end*/
+
+ /* real time animal tracker start*/
+ #animal-tracker {
+     width: 100%;
+     height: 80vh;
+     /* background-color: bisque; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #animal-tracker .wrapper {
+     width: 80%;
+     height: 60vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 30px;
+ }
+
+ #animal-tracker .wrapper h2 {
+     font-size: var(--fs-30);
+ }
+
+ #animal-tracker .wrapper img {
+     width: 35%;
+     /* background-color: aquamarine; */
+ }
+
+ /* real time animal tracker end*/
+
+ /* Adoption & shelter start*/
+ #adoption-shelter {
+     width: 100%;
+     height: 60vh;
+     /* background-color: aqua; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #adoption-shelter .wrapper {
+     width: 80%;
+     height: 50vh;
+     /* background-color: blue; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+ }
+
+ #adoption-shelter .wrapper .adoption-img {
+     width: 100%;
+     object-fit: cover;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     /* background-color: black */
+ }
+
+ #adoption-shelter .wrapper .adoption-img img {
+     width: 80%;
+ }
+
+ #adoption-shelter .wrapper .adoption-content {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ #adoption-shelter .wrapper .adoption-content h2 {
+     font-size: var(--fs-30);
+ }
+ /* Adoption & shelter end*/
+
+ /* forvever home start */
+ #forever-home{
+    width: 100%;
+    height: 60vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ #forever-home .wrapper{
+    width: 80%;
+    height: 50vh;
+    /* background-color: beige; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+ }
+ #forever-home .wrapper .forever-card{
+    width: 100%;
+    height: 50Vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    /* background-color: plum; */
+    /* margin-top: 20% ; */
+    flex-wrap: wrap;
+
+}
+ #forever-home .wrapper  .forever-card .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 38vh;
+    flex-direction: column;
+    gap: 40px;
+    /*margin-top: 30px;
+    */background-color: var(--tertiory-color);
+    border-radius: 0px 0px 8px 8px;
+}
+#forever-home .wrapper  .forever-card .card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#forever-home .wrapper  .forever-card .card p {
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+ /* forvever home end */

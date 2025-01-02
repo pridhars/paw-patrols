@@ -1,0 +1,152 @@
+/* about-us start */
+#about-us{
+    margin-top: 30px;
+    width: 100%;
+    height: 130h;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-us .wrapper{
+    /* width: 80%; */
+    height: 70vh;
+    /* background-color:gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#about-us .wrapper .about-content{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#about-us .wrapper .about-content h1{
+    font-size: var(--fs-40);
+}
+#about-us .wrapper .about-content p{
+    text-align: center;
+    font-size: var(--fs-20);
+}
+#about-us .wrapper .about-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* about-us end */
+
+/* animal-compassion start */
+#animal-compassion{
+    width: 100%;
+    height: 60vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+#animal-compassion .wrapper{
+    width: 80%;
+    height: 50vh;
+    /* background-color: rgb(4, 38, 96); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0px; */
+}
+
+#animal-compassion .wrapper .compassion-img{
+    width: 70%;
+}
+#animal-compassion .wrapper .compassion-img img{
+    width: 60%;
+    /* background-color: beige; */
+}
+#animal-compassion .wrapper .compassion-content{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+#animal-compassion .wrapper .compassion-content h2{
+    font-size: var(--fs-30);
+}
+/* animal-compassion end */
+
+
+/* vission-mission start*/
+#vission-mission{
+    width: 100%;
+    height: 60vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#vission-mission .wrapper{
+    width: 80%;
+    height: 60vh;
+    /* background-color:gainsboro; */
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    /* gap: 60px; */
+   
+}
+#vission-mission .wrapper .vission{
+    width: 80%;
+    height: 50vh;
+    /* background-color:rgb(105, 149, 23); */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:25%;
+  
+}
+#vission-mission .wrapper .vission .vission-content{ 
+    width: 80%;
+    height: 40vh;
+    /* background-color:rgb(80, 11, 11); */
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    gap: 10px;
+}
+#vission-mission .wrapper .vission .vission-content h1{ 
+    font-size: var(--fs-30);
+}
+#vission-mission .wrapper .vission .vission-content .vission-mission-para{ 
+    width: 120%;
+}
+#vission-mission .wrapper .vission .vission-content .vission-heading{ 
+    font-size: var(--fs-28);
+}
+#vission-mission .wrapper .vission .vission-content .vission-para{ 
+    width: 120%;
+}
+#vission-mission .wrapper .vission .vission-content .mission-heading{ 
+    font-size: var(--fs-28);
+}
+#vission-mission .wrapper .vission .vission-content .mission-para{ 
+    width: 120%;
+}
+#vission-mission .wrapper .vission .vission-mission-img{
+    width:50%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* margin-right: 100px; */
+    background-color: bisque;
+}
+#vission-mission .wrapper .vission .vission-mission-img img{
+    width: 120%;
+}

@@ -1,0 +1,856 @@
+ /* banner start  */
+ #community-safety {
+     width: 100%;
+     height: 60vh;
+     background-color: var(--tertiory-color);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ #community-safety .wrapper {
+     width: 80%;
+     height: 50vh;
+     /* background-color: rgb(48, 123, 19); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ #community-safety .wrapper .content {
+     width: 100%;
+     height: 40vh;
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     flex-direction: column;
+     gap: 30px;
+     /* background-color: brown; */
+ }
+
+ #community-safety .wrapper .content h1 {
+     width: 80%;
+     font-size: var(--fs-48);
+     /* background-color: brown; */
+ }
+
+ #community-safety .wrapper .content p {
+     width: 80%;
+     /* background-color: brown; */
+ }
+
+ #community-safety .wrapper .community-img {
+     width: 100%;
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     /* background-color: aquamarine; */
+ }
+
+ #community-safety .wrapper .community-img img {
+     width: 75%;
+     object-fit: cover;
+     /* background-color: aquamarine; */
+
+ }
+
+ /* banner start  */
+
+ /* pet connections start  */
+ #well-being {
+     width: 100%;
+     height: auto;
+     /* background-color: blue; */
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     margin-top: 40px;
+     /* display: none; */
+ }
+
+ #well-being .wrapper {
+     height: auto;
+     width: 80%;
+     /* background-color: antiquewhite; */
+     display: flex;
+     align-items: center;
+     justify-content: start;
+     flex-direction: column;
+     gap: 30px;
+ }
+
+ #well-being .wrapper .pet-connection {
+     width: 100%;
+     /* background-color: bisque; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #well-being .wrapper .pet-connection h2 {
+     font-size: var(--fs-30);
+ }
+
+ #well-being .wrapper .pet-connection-card {
+     width: 100%;
+     height: auto;
+     /* background-color: cadetblue; */
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     gap: 30px;
+     flex-wrap: wrap;
+ }
+
+ #well-being .wrapper .pet-connection-card .pet-card-one {
+     height: 50vh;
+     /* width: 85%; */
+     background-color: var(--tertiory-color);
+     display: flex;
+     /* justify-content: center; */
+     align-items: center;
+     flex-direction: column;
+     gap: 30px;
+     border-radius: 4px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+     /* background-color: aqua; */
+ }
+
+ #well-being .wrapper .pet-connection-card .pet-card-one img {
+     width: 350px;
+ }
+
+ #well-being .wrapper .pet-connection-card .pet-card-one p {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #well-being .wrapper .pet-connection-card .pet-card-two {
+     height: 50vh;
+     background-color: var(--tertiory-color);
+     border-radius: 4px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     gap: 30px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+ }
+
+ #well-being .wrapper .pet-connection-card .pet-card-two img {
+     width: 350px;
+ }
+
+ #well-being .wrapper .pet-connection-card .pet-card-two p {
+     text-align: center;
+ }
+
+ #well-being .wrapper .pet-connection-card .pet-card-three {
+     height: 50vh;
+     background-color: var(--tertiory-color);
+     border-radius: 4px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     gap: 30px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+ }
+
+ #well-being .wrapper .pet-connection-card .pet-card-three img {
+     width: 350px;
+ }
+
+ #well-being .wrapper .pet-connection-card .pet-card-three p {
+     text-align: center;
+ }
+
+ /* pet connections end */
+
+ /* happy tail start */
+ #happy-tail {
+     width: 100%;
+     height: 60vh;
+     /* background-color: gold; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+     /* display: none; */
+ }
+
+ #happy-tail .wrapper {
+     width: 80%;
+     height: 50vh;
+     /* background-color: azure; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+ }
+
+ #happy-tail .wrapper .tail-img {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #happy-tail .wrapper .tail-img img {
+     width: 70%;
+     object-fit: cover;
+ }
+
+ #happy-tail .wrapper .tail-content {
+     width: 60%;
+     height: 30vh;
+     /* background-color: blanchedalmond; */
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ #happy-tail .wrapper .tail-content h2 {
+     font-size: var(--fs-30);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ /* happy tail end */
+
+ /* Sustainable Care start*/
+ #sustainable-care {
+     width: 100%;
+     height: 60vh;
+     /* background-color: darkblue; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* display: none; */
+ }
+
+ #sustainable-care .wrapper {
+     width: 80%;
+     height: 50vh;
+     gap: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* background-color: beige; */
+     display: flex;
+ }
+
+ #sustainable-care .wrapper .sustainable-content {
+     width: 60%;
+     height: 40vh;
+     /* background-color: gray; */
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     flex-direction: column;
+     gap: 30px;
+     /* position: relative; */
+ }
+
+ #sustainable-care .wrapper .sustainable-content h2 {
+     font-size: var(--fs-30);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #sustainable-care .wrapper .sustainable-care-img {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #sustainable-care .wrapper .sustainable-care-img img {
+     width: 80%;
+     object-fit: cover;
+ }
+
+ /* #sustainable-care .wrapper .care-absolute {
+     position: absolute;
+     display: flex;
+     width: 14%;
+     height: 10%;
+     padding: 20px;
+     border-radius: 15px;
+     margin-left: 45%;
+     margin-top: 20%;
+     border-top: 8px solid var(--primary-color);
+     background-color: var(--secondary-color);
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+     text-align: center;
+ } */
+
+ /* Sustainable Care end*/
+
+
+ /*  reward & recognition start*/
+ #reward {
+     width: 100%;
+     height: 90vh;
+     background-color: var(--tertiory-color);
+     margin-top: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* display: none; */
+ }
+
+ #reward .wrapper {
+     width: 80%;
+     height: 60vh;
+     /* background-color: bisque; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+ }
+
+ #reward .wrapper .reward-content {
+     height: 60vh;
+     /* background-color: rgb(181, 112, 28); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+     gap: 40px;
+ }
+
+ #reward .wrapper .reward-content h2 {
+     font-size: var(--fs-30);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #reward .wrapper .reward-content p {
+     text-align: center;
+     width: 80%;
+ }
+
+ #reward .wrapper .reward-content img {
+     width: 400px;
+ }
+
+ /* #reward .wrapper .dog-img {
+     position: absolute;
+     margin-right: 120%;
+     width: 20px;
+     background-color: aqua;
+     margin-bottom: 57%;
+ } */
+
+ /*  reward & recognition end*/
+
+ /* achived stories start*/
+ #achived-stories {
+     width: 100%;
+     height: 1000px;
+     background-color: chocolate;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     margin-top: 80px;
+     /* display: none; */
+ }
+
+ #achived-stories .wrapper {
+     width: 80%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background-color: burlywood;
+     gap: 30px;
+ }
+
+ #achived-stories .wrapper h2 {
+     font-size: var(--fs-30);
+ }
+ #achived-stories .wrapper .achived-stories-content{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    align-items: center;justify-content: center;
+    height: 10%;
+
+ }
+
+ #achived-stories .wrapper .achived-stories-content h2{
+    font-size: var(--fs-30);
+   
+}
+ #achived-stories .wrapper .story-card-one {
+     width: 100%;
+     height: 90%;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     gap: 40px;
+     background-color: plum;
+     /* margin-top: 20%; */
+     flex-wrap: wrap;
+
+ }
+
+ #achived-stories .wrapper .story-card-one .card {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 30%;
+     height: 40%;
+     flex-direction: column;
+     gap: 30px;
+     padding: 10px 5px;
+     background-color: var(--tertiory-color);
+     border-radius: 8px;
+
+ }
+
+ #achived-stories .wrapper .story-card-one .card img {
+     object-fit: cover;
+ }
+
+ #achived-stories .wrapper .story-card-one .card p {
+     text-align: center;
+ }
+
+
+
+ /* media query */
+
+ /* banner start */
+ @media only screen and (max-width:1144px) {
+     #community-safety {
+         height: auto;
+     }
+
+     #community-safety .wrapper {
+         gap: 10px;
+     }
+
+     #community-safety .wrapper .content {
+         gap: 20px;
+     }
+
+     #community-safety .wrapper .content h1 {
+         width: 80%;
+         font-size: var(--fs-40);
+         /* background-color: brown; */
+     }
+
+     #community-safety .wrapper .community-img img {
+         width: 300px;
+     }
+ }
+
+ @media only screen and (max-width:930px) {
+     #community-safety .wrapper .content h1 {
+         width: 90%;
+         font-size: var(--fs-38);
+         /* background-color: brown; */
+     }
+
+     #community-safety .wrapper .content {
+         gap: 30px;
+     }
+ }
+
+ @media only screen and (max-width:835px) {
+     #community-safety .wrapper {
+         width: 90%;
+     }
+
+     #community-safety .wrapper .content h1 {
+         font-size: var(--fs-28);
+     }
+ }
+
+ @media only screen and (max-width:800px) {
+
+     #community-safety .wrapper {
+         width: 90%;
+         height: 60vh;
+         flex-direction: column;
+         margin-top: 20px;
+     }
+
+     #community-safety .wrapper .content {
+         align-items: center;
+     }
+
+     #community-safety .wrapper .content h1 {
+         width: 90%;
+         font-size: var(--fs-28);
+         /* background-color: brown; */
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+     }
+
+     #community-safety .wrapper .content p {
+         text-align: center;
+
+
+     }
+
+     #community-safety .wrapper .community-img {
+         margin-bottom: 20px;
+     }
+
+ }
+
+ @media only screen and (max-width:680px) {
+     #community-safety .wrapper .content h1 {
+
+         font-size: var(--fs-24);
+     }
+
+     #community-safety .wrapper .content p {
+         font-size: var(--fs-14);
+     }
+ }
+
+ @media only screen and (max-width:564px) {
+     #community-safety .wrapper .content {
+         gap: 20px;
+     }
+
+     #community-safety .wrapper .content h1 {
+         width: 60%;
+         text-align: center;
+         font-size: var(--fs-20);
+         /* background-color: gold; */
+     }
+
+     #community-safety .wrapper .content p {
+         width: 90%;
+     }
+
+     #community-safety .wrapper .community-img img {
+         width: 250px;
+     }
+ }
+
+ /* banner start */
+
+
+
+ /* Pet Connections start */
+
+ @media only screen and (max-width:900px) {
+     #well-being {
+         height: auto;
+     }
+
+     #well-being .wrapper .pet-connection h2 {
+         font-size: var(--fs-28);
+     }
+ }
+
+ @media only screen and (max-width:760px) {
+     #well-being .wrapper .pet-connection-card {
+         width: 70%;
+     }
+
+     #well-being .wrapper .pet-connection h2 {
+         font-size: var(--fs-24);
+         width: 80%;
+         text-align: center;
+         /* background-color: bisque; */
+     }
+ }
+
+ @media only screen and (max-width:564px) {
+     #well-being {
+         height: 1000px;
+         /* background-color: blue; */
+     }
+
+     #well-being .wrapper .pet-connection-card {
+         width: 70%;
+         height: 90vh;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-one {
+         width: 100%;
+         height: 45vh;
+         /* background-color: aqua; */
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-one img {
+         width: 100%;
+         /* background-color: blue;  */
+     }
+
+     #well-being .wrapper .pet-connection h2 {
+         font-size: var(--fs-20);
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-two {
+         width: 100%;
+         height: 45vh;
+         /* background-color: aqua; */
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-two img {
+         width: 100%;
+         /* background-color: blue;  */
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-three {
+         width: 100%;
+         height: 45vh;
+         /* background-color: aqua; */
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-three p {
+         width: 90%;
+
+         text-align: center;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-three img {
+         width: 100%;
+         /* background-color: blue;  */
+     }
+ }
+
+ @media only screen and (max-width:435px) {
+     #well-being {
+         height: 900px;
+         /* background-color: aquamarine; */
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-one {
+         height: 40vh;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-one p {
+         font-size: var(--fs-14);
+         width: 80%;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-two {
+         height: 40vh;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-two p {
+         font-size: var(--fs-14);
+         width: 80%;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-three {
+         height: 40vh;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-three p {
+         font-size: var(--fs-14);
+         width: 80%;
+         /* background-color: aquamarine; */
+     }
+ }
+
+ @media only screen and (max-width:335px) {
+
+     #well-being .wrapper .pet-connection-card .pet-card-one {
+         height: 250px;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-one p {
+         margin-top: 10px;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-two {
+         height: 250px;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-two p {
+         margin-top: 10px;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-three {
+         height: 250px;
+     }
+
+     #well-being .wrapper .pet-connection-card .pet-card-three p {
+         margin-top: 10px;
+     }
+ }
+
+ /* Pet Connections end */
+
+
+ /*  happy tails start */
+ @media only screen and (max-width:800px) {
+     #happy-tail .wrapper {
+         flex-direction: column-reverse;
+         width: auto;
+     }
+
+     #happy-tail .wrapper .tail-img img {
+         width: 50%;
+     }
+
+     #happy-tail .wrapper .tail-content {
+         align-items: center;
+     }
+
+     #happy-tail .wrapper .tail-content p {
+         text-align: center;
+     }
+ }
+
+ @media only screen and (max-width:757px) {
+    #happy-tail{
+        margin-top: 40px;
+    }
+     #happy-tail .wrapper .tail-content h2 {
+         font-size: var(--fs-24);
+     }
+ }
+
+ @media only screen and (max-width:564px) {
+    
+     #happy-tail .wrapper .tail-content h2 {
+         font-size: var(--fs-20);
+     }
+ }
+
+ @media only screen and (max-width:437px) {
+     /* #happy-tail {
+         margin-top: 20px;
+     } */
+
+     #happy-tail .wrapper .tail-content h2 {
+         text-align: center;
+     }
+
+     #happy-tail .wrapper .tail-content p {
+         font-size: var(--fs-14);
+     }
+ }
+
+ /*  happy tails end */
+
+ /* Sustainable Care start */
+ @media only screen and (max-width:800px) {
+     #sustainable-care .wrapper {
+         flex-direction: column;
+         width: auto;
+     }
+
+     #sustainable-care .wrapper .sustainable-care {
+         align-items: center;
+     }
+
+     #sustainable-care .wrapper .sustainable-content h2 {
+         text-align: center;
+         width: 100%;
+         /* background-color: aqua; */
+     }
+
+     #sustainable-care .wrapper .sustainable-care-img img {
+         width: 48%;
+     }
+
+     #sustainable-care .wrapper .sustainable-content p {
+         text-align: center;
+     }
+ }
+
+ @media only screen and (max-width:775px) {
+    #sustainable-care{
+        margin-top: 50px;
+    }
+     #sustainable-care .wrapper .sustainable-content h2 {
+         font-size: var(--fs-24);
+         text-align: center;
+     }
+ }
+
+ @media only screen and (max-width:564px) {
+    #sustainable-care{
+            margin-top: 40px;
+        }
+     #sustainable-care .wrapper .sustainable-content h2 {
+         font-size: var(--fs-20);
+     }
+ }
+
+ @media only screen and (max-width:437px) {
+    #sustainable-care{
+        margin-top: 20px;
+    }
+     #sustainable-care .wrapper .sustainable-content p {
+         font-size: var(--fs-14);
+     }
+ }
+
+ /* Sustainable Care end */
+
+ /* reward & recognition start */
+
+ @media only screen and (max-width:775px) {
+     #reward .wrapper .reward-content h2 {
+         font-size: var(--fs-24);
+     }
+
+     #reward .wrapper .reward-content img {
+         width: 300px;
+     }
+ }
+
+ @media only screen and (max-width:564px) {
+     #reward {
+         height: 80vh;
+     }
+
+     #reward .wrapper .reward-content h2 {
+         font-size: var(--fs-20);
+     }
+
+ }
+
+ @media only screen and (max-width:437px) {
+     #reward {
+         height: 70vh;
+     }
+
+     #reward .wrapper .reward-content p {
+         font-size: var(--fs-14);
+     }
+
+     #reward .wrapper .reward-content img {
+         width: 200px;
+     }
+ }
+
+ /* reward & recognition end*/
+
+ /* achived stories start*/
