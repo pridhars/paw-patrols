@@ -6,6 +6,7 @@
      display: flex;
      align-items: center;
      justify-content: center;
+     /* display: none; */
  }
 
  #transport-support .wrapper {
@@ -26,6 +27,7 @@
      display: flex;
      align-items: center;
      justify-content: center;
+       
  }
 
  #transport-support .wrapper .banner-container .transport-content {
@@ -33,27 +35,32 @@
      height: 40vh;
      display: flex;
      flex-direction: column;
+     justify-content: center;
+     align-items: center;
      gap: 30px;
+   
      /* background-color: brown; */
- }
-
- #transport-support .wrapper .banner-container .transport-content .efficent-transport {
-     font-size: var(--fs-40);
  }
 
  #transport-support .wrapper .banner-container .transport-content h1 {
-     width: 80%;
-     font-size: var(--fs-48);
+     width: 100%;
+     font-size: var(--fs-38);
+   
      /* background-color: brown; */
  }
-
+ #transport-support .wrapper .banner-container .transport-content p{
+    width: 100%;
+ }
  #transport-support .wrapper .banner-container .transport-img {
-     width: 100%;
-     object-fit: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
 
  #transport-support .wrapper .banner-container .transport-img img {
-     width: 80%;
+    width: 75%;
+    object-fit: cover;
  }
 
  /* banner end */
@@ -68,6 +75,7 @@
      justify-content: center;
      align-items: center;
      gap: 30px;
+     /* display: none; */
      /* margin-top: 40px; */
  }
 
@@ -97,10 +105,10 @@
 
  #health-monitor .wrapper .health-card .card {
      display: flex;
-     justify-content: center;
+     justify-content: start;
      align-items: center;
      width: 30%;
-     height: 30%;
+     height: 35%;
      flex-direction: column;
      gap: 30px;
      margin-top: 30px;
@@ -115,6 +123,7 @@
  #health-monitor .wrapper .health-card .card img {
      width: 100%;
      object-fit: cover;
+
 
  }
 
@@ -135,6 +144,7 @@
      display: flex;
      align-items: center;
      justify-content: center;
+     display: none;
  }
 
  #doctor-monitor .wrapper {
@@ -186,6 +196,7 @@
      display: flex;
      align-items: center;
      justify-content: center;
+     display: none;
  }
 
  #animal-tracker .wrapper {
@@ -217,6 +228,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     display: none;
  }
 
  #adoption-shelter .wrapper {
@@ -264,6 +276,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
  }
  #forever-home .wrapper{
     width: 80%;
@@ -309,3 +322,79 @@
 
 }
  /* forvever home end */
+
+
+
+
+
+
+
+ 
+ /* media query start */
+
+  /* banner start */
+ @media only screen and (max-width:1144px) {
+    #transport-support .wrapper .banner-container .transport-img img {
+        width: 320px;
+    }
+ }
+ @media only screen and (max-width:930px) {
+    #transport-support .wrapper .banner-container .transport-content h1 {
+        font-size: var(--fs-38);
+    }
+    #transport-support .wrapper .banner-container {
+        gap: 40px;
+    }
+ }
+ @media only screen and (max-width:843px) {
+    #transport-support .wrapper .banner-container .transport-content h1 {
+        font-size: var(--fs-28);
+    }
+ }
+ @media only screen and (max-width:800px) {
+    #transport-support {
+        height: 70vh;  
+    }
+   
+    #transport-support .wrapper .banner-container {
+        flex-direction: column-reverse;
+    }
+    #transport-support .wrapper .banner-container .transport-content h1 {
+        text-align: center;
+    }
+    #transport-support .wrapper .banner-container .transport-content p{
+        width: 80%;
+        text-align: center;
+     }
+     #transport-support .wrapper .banner-container .transport-content {
+        gap: 10px;
+     }
+ }
+ @media only screen and (max-width:680px) {
+    
+    #transport-support .wrapper .banner-container .transport-content h1 {
+        font-size: var(--fs-24);
+        
+    }
+    #transport-support .wrapper .banner-container .transport-content p{
+        font-size: var(--fs-14);
+        width: 80%;
+    }
+ }
+ @media only screen and (max-width:564px) {
+    #transport-support .wrapper .banner-container .transport-img img {
+        width: 250px;
+    }
+ }
+   /* banner end */
+
+   
+   /* health monitor start */
+
+   @media only screen and (max-width:1380px) {
+    /* #health-monitor {
+        width: auto;
+        height: auto;
+   } */
+   
+}

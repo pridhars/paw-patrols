@@ -189,7 +189,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: none; */
+    display: none;
 }
 
 footer .footer-wrapper {
@@ -219,15 +219,7 @@ footer .footer-wrapper .footer-container .subscribe {
     align-items: center;
     gap: 10px;
 }
-/* footer .footer-wrapper .footer-container .subscribe  form{
-    width: 100%;
-    display: flex;
-    background-color: aquamarine;
-}
-footer .footer-wrapper .footer-container .subscribe  form input {
-background-color: black;
-width: 50%;
-} */
+
 footer .footer-wrapper .footer-container .subscribe .foot-img{
     width:20px;
     display: flex;
