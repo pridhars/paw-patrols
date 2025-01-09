@@ -283,23 +283,6 @@
      object-fit: cover;
  }
 
- /* #sustainable-care .wrapper .care-absolute {
-     position: absolute;
-     display: flex;
-     width: 14%;
-     height: 10%;
-     padding: 20px;
-     border-radius: 15px;
-     margin-left: 45%;
-     margin-top: 20%;
-     border-top: 8px solid var(--primary-color);
-     background-color: var(--secondary-color);
-     -webkit-border-radius: 15px;
-     -moz-border-radius: 15px;
-     -ms-border-radius: 15px;
-     -o-border-radius: 15px;
-     text-align: center;
- } */
 
  /* Sustainable Care end*/
 
@@ -323,8 +306,6 @@
      display: flex;
      align-items: center;
      justify-content: center;
-
-
  }
 
  #reward .wrapper .reward-content {
@@ -353,14 +334,6 @@
  #reward .wrapper .reward-content img {
      width: 400px;
  }
-
- /* #reward .wrapper .dog-img {
-     position: absolute;
-     margin-right: 120%;
-     width: 20px;
-     background-color: aqua;
-     margin-bottom: 57%;
- } */
 
  /*  reward & recognition end*/
 
@@ -393,7 +366,8 @@
     /* background-color: blue; */
     width: 100%;
     display: flex;
-    align-items: center;justify-content: center;
+    align-items: center;
+    justify-content: center;
     height: 10%;
 
  }

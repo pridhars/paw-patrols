@@ -165,22 +165,6 @@
 
 }
 
-/* #count .save .card-vaccine {
-    width: 30%;
-    height: 20vh;
-    border: 1px solid var(--primary-color);
-    background-color: var(--tertiory-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    gap: 20px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-} */
-
 #count .save .card-vaccine .card-img-two {
     width: 30%;
     height: 10vh;
@@ -215,21 +199,7 @@
 
 }
 
-/* #count .save .card-adopt {
-    width: 30%;
-    height: 20vh;
-    border: 1px solid var(--primary-color);
-    background-color: var(--tertiory-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    gap: 20px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-} */
+
 #count .save .card-adopt .card-three {
     display: flex;
     align-items: center;
@@ -308,9 +278,6 @@
     width: 80%;
 }
 
-#transport .wrapper .pet-ambulance button {
-    width: 30%;
-}
 
 #transport .wrapper .transport-img {
     width: 50%;
@@ -377,9 +344,7 @@
     /* margin-left: 170px; */
 }
 
-#community-safety .wrapper .community button {
-    width: 35%;
-}
+
 
 #community-safety .wrapper .community h2 {
     font-size: var(--fs-30);
@@ -436,9 +401,7 @@
     width: 80%;
 }
 
-#volunteer .wrapper .volunteer-training button {
-    width: 20%;
-}
+
 
 #volunteer .wrapper .volunteer-img {
     width: 50%;
@@ -453,23 +416,6 @@
     width: 500px;
 }
 
-
-/* #volunteer .hands-on {
-    position: absolute;
-    display: flex;
-    width: 14%;
-    height: 10%;
-    padding: 20px;
-    border-radius: 15px;
-    margin-left: 50%;
-    margin-top: 20%;
-    border-top: 8px solid var(--primary-color);
-    background-color: var(--secondary-color);
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-} */
 
 /*volunteer end*/
 
@@ -664,15 +610,6 @@
     /* position: relative; */
 }
 
-/* #fund .wrapper .fund {
-    height: 40vh;
-    width: 100%;
-    background-color: rgb(255, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: as;
-} */
-
 #fund .wrapper img {
     width: 450px;
     display: flex;
@@ -701,164 +638,8 @@
     font-size: var(--fs-20);
 }
 
-/* #fund .join-fund {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-    height: 20%;
-    padding: 28px;
-    border-radius: 15px;
-    margin-right: 75%;
-    margin-top: 23%;
-    border-top: 8px solid var(--primary-color);
-    background-color: var(--secondary-color);
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px
-} */
-
 /* fund end*/
 
-/* animal care start */
-#card-fund {
-    width: 100%;
-    height: 40vh;
-    /* background-color: yellowgreen; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    gap: 40px;
-    /* display: none; */
-
-}
-
-#card-fund .wrapper {
-    height: 40vh;
-    /* background-color: bisque; */
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#card-fund .wrapper .adopt {
-    width: 25%;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* background-color:goldenrod ; */
-    position: relative;
-    gap: 30px;
-    margin: 100px;
-    border: 2px solid var(--primary-color);
-    border-radius: 8px;
-}
-
-#card-fund .wrapper .adopt img {
-    position: absolute;
-    margin-left: 97%;
-}
-
-#card-fund .wrapper .adopt h4 {
-    font-size: var(--fs-24);
-    width: 20%;
-    margin-top: 20%;
-    margin-right: 20%;
-}
-
-#card-fund .wrapper .adopt p {
-    font-size: var(--fs-20);
-    width: 60%;
-    margin-bottom: 20%;
-    margin-right: 20%;
-    /* text-align: center; */
-    /* background-color: aquamarine; */
-}
-
-#card-fund .wrapper .donate {
-    width: 25%;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* background-color:goldenrod ; */
-    position: relative;
-    gap: 30px;
-    margin-right: 120px;
-    border: 2px solid var(--primary-color);
-    border-radius: 8px;
-}
-
-#card-fund .wrapper .donate img {
-    position: absolute;
-    margin-left: 120%;
-}
-
-#card-fund .wrapper .donate h4 {
-    font-size: var(--fs-24);
-    width: 70%;
-    margin-top: 80%;
-    margin-right: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: aqua; */
-}
-
-#card-fund .wrapper .donate p {
-    font-size: var(--fs-20);
-    width: 70%;
-    margin-bottom: 80%;
-    margin-right: 20%;
-    padding: auto;
-    /* background-color: aquamarine; */
-}
-
-#card-fund .wrapper .foster {
-    width: 25%;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* background-color:goldenrod ; */
-    position: relative;
-    gap: 30px;
-    margin-right: 120px;
-    border: 2px solid var(--primary-color);
-    border-radius: 8px;
-}
-
-#card-fund .wrapper .foster img {
-    position: absolute;
-    margin-left: 97%;
-
-}
-
-#card-fund .wrapper .foster h4 {
-    font-size: var(--fs-24);
-    width: 20%;
-    margin-top: 58%;
-    margin-right: 20%;
-}
-
-#card-fund .wrapper .foster p {
-    font-size: var(--fs-20);
-    width: 70%;
-    margin-bottom: 55%;
-    margin-right: 20%;
-    /* background-color: aquamarine; */
-}
-
-/* animal care end */
 
 /* leaderboard start */
 #leaderboard {
@@ -891,19 +672,6 @@
     align-items: center;
 
 }
-
-/* #leaderboard .wrapper .leader .dog-img {
-    position: absolute;
-    margin-right: 120%;
-    width: 20px;
-    background-color: aqua;
-    margin-top: 2%;
-}
-
-#leaderboard .wrapper .leader .dog-img img {
-    width: 350px;
-    background-color: aqua;
-} */
 
 #leaderboard .wrapper .leader h2 {
     font-size: var(--fs-30);
@@ -978,7 +746,6 @@
     left: 25%;
     bottom: 60%;
     width: 43%;
-
 }
 
 #leaderboard .person .rachita {
@@ -1018,158 +785,6 @@
 }
 
 /* leaderboard end */
-
-/* faq start */
-#faq {
-    width: 100%;
-    height: 80vh;
-    /* background-color: blue; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    display: none;
-}
-
-#faq .wrapper {
-    width: 80%;
-    height: 40vh;
-    /* background-color: rgb(167, 167, 199); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    gap: 30px;
-}
-
-#faq .wrapper .faqs h2 {
-    font-size: var(--fs-30);
-}
-
-#faq .wrapper .explore-faq {
-    width: 100%;
-    height: 80vh;
-    /* background-color: aqua; */
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 30px;
-}
-
-#faq .wrapper .explore-faq p {
-    width: 80%;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30px;
-}
-
-#faq .wrapper .explore-faq img {
-    position: absolute;
-    left: 90%;
-    bottom: 40%;
-    width: 200px;
-}
-
-#faq .faq-question {
-    width: 100%;
-    height: 30vh;
-    gap: 50px;
-    flex-wrap: wrap;
-    background-color:gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* flex-direction: column; */
-}
-
-/* #faq .faq-question-one {
-    width: 100%;
-    height: 30vh;
-    background-color: beige;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 50px;
-    flex-direction: column;
-} */
-
-#faq .faq-one {
-    width: 50%;
-    height: 50%;
-    background-color: var(--tertiory-color);
-    border-bottom: 2px solid var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-}
-
-#faq  .faq-two {
-    width: 50%;
-    height: 50%;
-    background-color: var(--tertiory-color);
-    border-bottom: 2px solid var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    gap: 20px;
-}
-
-#faq .faq-two p {
-    margin-left: 25px;
-}
-
-/* #faq .faq-question-two {
-    width: 100%;
-    height: 30vh;
-    background-color: beige;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 50px;
-    flex-direction: column;
-} */
-
-#faq  .faq-three {
-    width: 50%;
-    height: 50%;
-    background-color: var(--tertiory-color);
-    border-bottom: 2px solid var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-}
-
-#faq  .faq-four {
-    width: 50%;
-    height: 50%;
-    background-color: var(--tertiory-color);
-    border-bottom: 2px solid var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    gap: 20px;
-}
-
-/* faq end */
-
-
 
 
 /* media query */

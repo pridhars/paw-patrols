@@ -1,7 +1,7 @@
  /* banner start  */
  #transport-support {
      width: 100%;
-     height: 60vh;
+     height: 65vh;
      background-color: var(--tertiory-color);
      display: flex;
      align-items: center;
@@ -69,49 +69,50 @@
  /* health monitor start */
  #health-monitor {
      width: 100%;
-     height: 100vh;
+     height: 800px;
      /* background-color: chocolate; */
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-items: start;
      gap: 30px;
      /* display: none; */
-     /* margin-top: 40px; */
+     /* margin-top: 50px; */
  }
 
  #health-monitor .wrapper {
      width: 80%;
-     height: 100vh;
+     height: 90%;
      display: flex;
      justify-content: center;
      align-items: center;
-     flex-direction: column;
+     /* flex-direction: column; */
      /* background-color: burlywood; */
      gap: 30px;
+    
  }
 
  #health-monitor .wrapper .health-card {
      width: 100%;
-     height: 100Vh;
+     height: 100%;
      display: flex;
      justify-content: center;
-     align-content: center;
+     /* align-content: center; */
      gap: 40px;
      /* background-color: plum; */
-     /* margin-top: 20% ; */
+     /* margin-top: 20px; */
      flex-wrap: wrap;
 
  }
 
  #health-monitor .wrapper .health-card .card {
      display: flex;
-     justify-content: start;
+     justify-content:start;
      align-items: center;
      width: 30%;
      height: 35%;
      flex-direction: column;
      gap: 30px;
-     margin-top: 30px;
+     margin-top: 50px;
      background-color: var(--tertiory-color);
      border-radius: 0px 0px 4px 4px;
      -webkit-border-radius: 0px 0px 4px 4px;
@@ -122,6 +123,7 @@
 
  #health-monitor .wrapper .health-card .card img {
      width: 100%;
+     /* height: 100%; */
      object-fit: cover;
 
 
@@ -129,8 +131,10 @@
 
  #health-monitor .wrapper .health-card .card p {
      width: 100%;
+     height: auto;
      text-align: center;
-     margin-bottom: 20px;
+     
+     /* margin-bottom: 20px; */
 
  }
 
@@ -139,12 +143,12 @@
  /* digital start*/
  #doctor-monitor {
      width: 100%;
-     height: 60vh;
+     height: 70vh;
      /* background-color: beige; */
      display: flex;
      align-items: center;
      justify-content: center;
-     display: none;
+     /* display: none; */
  }
 
  #doctor-monitor .wrapper {
@@ -172,17 +176,21 @@
  }
 
  #doctor-monitor .wrapper .digital-monitor p {
-     width: 150%;
+     width: 100%;
  }
 
  #doctor-monitor .wrapper .digital-monitor-img {
-     width: 130%;
+     width: 100%;
      object-fit: cover;
-     margin-left: 30%;
+     /* margin-left: 30%; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
  }
 
  #doctor-monitor .wrapper .digital-monitor-img img {
-     width: 90%;
+     width: 80%;
 
  }
 
@@ -191,17 +199,17 @@
  /* real time animal tracker start*/
  #animal-tracker {
      width: 100%;
-     height: 80vh;
+     height: 90vh;
      /* background-color: bisque; */
      display: flex;
      align-items: center;
      justify-content: center;
-     display: none;
+     /* display: none; */
  }
 
  #animal-tracker .wrapper {
      width: 80%;
-     height: 60vh;
+     height: 80vh;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -211,10 +219,12 @@
 
  #animal-tracker .wrapper h2 {
      font-size: var(--fs-30);
+     /* background-color: aqua; */
+    
  }
 
  #animal-tracker .wrapper img {
-     width: 35%;
+     width: 400px;
      /* background-color: aquamarine; */
  }
 
@@ -228,7 +238,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     display: none;
+     /* display: none; */
  }
 
  #adoption-shelter .wrapper {
@@ -260,7 +270,7 @@
      justify-content: center;
      align-items: start;
      flex-direction: column;
-     gap: 20px;
+     gap: 40px;
  }
 
  #adoption-shelter .wrapper .adoption-content h2 {
@@ -268,60 +278,7 @@
  }
  /* Adoption & shelter end*/
 
- /* forvever home start */
- #forever-home{
-    width: 100%;
-    height: 60vh;
-    /* background-color: aqua; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: none;
- }
- #forever-home .wrapper{
-    width: 80%;
-    height: 50vh;
-    /* background-color: beige; */
-    display: flex;
-    align-content: center;
-    justify-content: center;
-
- }
- #forever-home .wrapper .forever-card{
-    width: 100%;
-    height: 50Vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 40px;
-    /* background-color: plum; */
-    /* margin-top: 20% ; */
-    flex-wrap: wrap;
-
-}
- #forever-home .wrapper  .forever-card .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 38vh;
-    flex-direction: column;
-    gap: 40px;
-    /*margin-top: 30px;
-    */background-color: var(--tertiory-color);
-    border-radius: 0px 0px 8px 8px;
-}
-#forever-home .wrapper  .forever-card .card img {
-    width: 100%;
-    object-fit: cover;
-}
-
-#forever-home .wrapper  .forever-card .card p {
-    text-align: center;
-    margin-bottom: 10%;
-
-}
- /* forvever home end */
+ 
 
 
 
@@ -390,11 +347,181 @@
 
    
    /* health monitor start */
+   
+   @media only screen and (max-width:1120px) {
+    #health-monitor {
+        height: 800px;
+     } 
+   #health-monitor .wrapper .health-card .card {
+    width: 30%;
+    height: 35%;
+   }
+}
+@media only screen and (max-width:1000px) {
+    
+    
+    #health-monitor .wrapper .health-card .card {
+        width: 30%;
+        height: 30%;   
+       }
+    #health-monitor .wrapper {
+        align-items: center;
+        justify-content: center;   
+        }
+        #health-monitor {
+            height:auto;
+        }
+}
+@media only screen and (max-width:860px) {
+    #health-monitor{
+        margin-top: 30px;
+    }
+    #health-monitor .wrapper {
+    justify-content: center;
+    align-items: center;   
+    }
+   
 
-   @media only screen and (max-width:1380px) {
-    /* #health-monitor {
-        width: auto;
-        height: auto;
-   } */
+    #health-monitor .wrapper .health-card .card p {
+        font-size: var(--fs-14);
+        width: 80%;
+        margin-bottom: 8px;
+    }
+    #health-monitor .wrapper .health-card .card {
+        width: 78%;
+       
+       }
+       
+}
+ /* health monitor end */
+
+ /* digital start*/
+
+ @media only screen and (max-width:800px) {
+    #doctor-monitor{
+        height: 75vh;
+    }
+    
+    #doctor-monitor .wrapper {
+        flex-direction: column;
+    }
+    #doctor-monitor .wrapper .digital-monitor {
+        align-items: center;
+    }
+    #doctor-monitor .wrapper .digital-monitor-img img {
+        width: 300px;
+   
+    }
+    #doctor-monitor .wrapper .digital-monitor h2 {
+        text-align: center;
+        font-size: var(--fs-28);
+    }
+    #doctor-monitor .wrapper .digital-monitor p {
+        width: 80%;
+        text-align: center;
+    }
+ }
+ @media only screen and (max-width:680px) {
+    #doctor-monitor .wrapper .digital-monitor h2 {
+        font-size: var(--fs-24);
+    }
+    #doctor-monitor .wrapper .digital-monitor p {
+        font-size: var(--fs-14);
+
+    }
+    #doctor-monitor .wrapper .digital-monitor-img img {
+        width: 350px;
+   
+    }
+ }
+ @media only screen and (max-width:564px) {
+    #doctor-monitor .wrapper .digital-monitor h2 {
+        font-size: var(--fs-20);
+    }
+    #doctor-monitor .wrapper .digital-monitor-img img {
+        width: 240px;
+   
+    }
+ }
+  /* digital end */
+
+  /* real time animal tracker start*/
+  @media only screen and (max-width:800px) {
+    #animal-tracker .wrapper h2 {
+        font-size: var(--fs-28);
+        text-align: center;
+    }
+    #animal-tracker .wrapper img {
+        width: 350px;
+  }
+}
+@media only screen and (max-width:680px) {
+    #animal-tracker .wrapper h2 {
+        font-size: var(--fs-24);
+    }
+}
+@media only screen and (max-width:564px) {
+    #animal-tracker {
+        height: 60vh;
+    }
+    #animal-tracker .wrapper h2 {
+        font-size: var(--fs-20);
+
+    }
+    #animal-tracker .wrapper img {
+        width: 280px;
+  }
+}
+  /* real time animal tracker end*/
+
+
+
+   /* Adoption & shelter start*/
+
+   @media only screen and (max-width:800px) {
+    
+    #adoption-shelter .wrapper {
+        flex-direction: column-reverse;
+    }
+    #adoption-shelter .wrapper .adoption-img {
+        width: 350px;
+        justify-content: center;
+    }
+    #adoption-shelter .wrapper .adoption-content {
+        align-items: center
+    }
+    #adoption-shelter .wrapper .adoption-content h2 {
+        text-align: center;
+        font-size: var(--fs-28);
+    }
+    #adoption-shelter .wrapper .adoption-content p {
+        text-align: center;
+        width: 80%;
+    }
+   }
+   @media only screen and (max-width:680px) {
+    #adoption-shelter .wrapper .adoption-content h2 {
+        font-size: var(--fs-24);
+    }
+    #adoption-shelter .wrapper {
+        gap: 30px;
+    }
+   }
+   @media only screen and (max-width:564px) {
+    #animal-tracker {
+         height: 70vh;
+    }
+    #adoption-shelter .wrapper .adoption-content h2 {
+        font-size: var(--fs-20);
+    }
+    #adoption-shelter .wrapper .adoption-img {
+        width: 350px;
+   }
    
 }
+@media only screen and (max-width:400px) {
+    #adoption-shelter .wrapper .adoption-img {
+        width: 300px;
+   }
+}
+ /* Adoption & shelter end*/

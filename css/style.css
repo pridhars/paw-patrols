@@ -189,7 +189,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    /* display: none; */
 }
 
 footer .footer-wrapper {
@@ -399,23 +399,12 @@ header nav .wrapper ul li .btn:hover {
         width: 100%;
     }
 }
-/* @media only screen and (max-width:465px) {
 
-    footer .footer-wrapper .footer-container .footer-info{
-        width: 30%;
-    }
-    footer .footer-wrapper .footer-container .footer-info {
-        gap: 50px;
-    }
-    footer .footer-wrapper .privacy-policy {  
-        width: 50%;
-    }
-} */
 @media only screen and (max-width:380px) {
     footer .footer-wrapper .footer-container .footer-info {
         gap: 20px;
     }
     footer .footer-wrapper .privacy-policy {  
-        width: 80%;
+        width: 100%;
     }
 }

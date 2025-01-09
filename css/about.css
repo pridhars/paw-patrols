@@ -1,152 +1,438 @@
 /* about-us start */
-#about-us{
-    margin-top: 30px;
+#about-us {
+
     width: 100%;
-    height: 130h;
-    /* background-color: aqua; */
+    height: 500px;
+    /* background-color: bisque; */
+    background-color: var(--tertiory-color);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#about-us .wrapper{
-    /* width: 80%; */
-    height: 70vh;
-    /* background-color:gray; */
+
+#about-us .wrapper {
+    width: 80%;
+    height: 400px;
     display: flex;
+    /* background-color: aqua; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
 }
-#about-us .wrapper .about-content{
-    width: 90%;
+
+#about-us .wrapper .about-content {
+    width: 100%;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
 }
-#about-us .wrapper .about-content h1{
+
+#about-us .wrapper .about-content h1 {
     font-size: var(--fs-40);
 }
-#about-us .wrapper .about-content p{
+
+#about-us .wrapper .about-content p {
     text-align: center;
-    font-size: var(--fs-20);
+    width: 100%;
+    font-size: var(--fs-18);
 }
-#about-us .wrapper .about-img{
+
+#about-us .wrapper .about-img {
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
+
+#about-us .wrapper .about-img img {
+    width: 250px;
+}
+
 /* about-us end */
 
 /* animal-compassion start */
-#animal-compassion{
+#animal-compassion {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    /* display: none; */
+
 
 }
-#animal-compassion .wrapper{
+
+#animal-compassion .wrapper {
     width: 80%;
-    height: 50vh;
+    height: 70vh;
     /* background-color: rgb(4, 38, 96); */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    /* gap: 0px; */
+    gap: 20px;
 }
 
-#animal-compassion .wrapper .compassion-img{
-    width: 70%;
+#animal-compassion .wrapper .compassion-img {
+    width: 100%;
+    display: flex;
+
 }
-#animal-compassion .wrapper .compassion-img img{
+
+#animal-compassion .wrapper .compassion-img img {
     width: 60%;
     /* background-color: beige; */
 }
-#animal-compassion .wrapper .compassion-content{
-    width: 90%;
+
+#animal-compassion .wrapper .compassion-content {
+    width: 80%;
+    height: 10%;
+    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
     gap: 20px;
 }
-#animal-compassion .wrapper .compassion-content h2{
+
+#animal-compassion .wrapper .compassion-content h2 {
     font-size: var(--fs-30);
+    width: 100%;
 }
+
 /* animal-compassion end */
 
 
 /* vission-mission start*/
-#vission-mission{
+#vission-mission {
     width: 100%;
-    height: 60vh;
+    height: 500px;
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
+    /* display: none; */
 }
-#vission-mission .wrapper{
+
+#vission-mission .wrapper {
     width: 80%;
-    height: 60vh;
+    height:90%;
     /* background-color:gainsboro; */
     display: flex;
-    justify-content:start;
-    align-items:center;
+    justify-content: start;
+    align-items: center;
     /* gap: 60px; */
-   
+
 }
-#vission-mission .wrapper .vission{
-    width: 80%;
-    height: 50vh;
+
+#vission-mission .wrapper .vission {
+    width: 100%;
+    height:100% ;
     /* background-color:rgb(105, 149, 23); */
     display: flex;
     justify-content: center;
-    align-items:center;
-    gap:25%;
-  
+    align-items: center;
+    gap: 20px;
+
 }
-#vission-mission .wrapper .vission .vission-content{ 
-    width: 80%;
-    height: 40vh;
+
+#vission-mission .wrapper .vission .vission-content {
+    width: 60%;
+    height:100%;
     /* background-color:rgb(80, 11, 11); */
     display: flex;
     justify-content: center;
-    align-items:start;
+    align-items: start;
     flex-direction: column;
     gap: 10px;
 }
-#vission-mission .wrapper .vission .vission-content h1{ 
+
+#vission-mission .wrapper .vission .vission-content h1 {
     font-size: var(--fs-30);
+    width: 80%;
 }
-#vission-mission .wrapper .vission .vission-content .vission-mission-para{ 
-    width: 120%;
+
+#vission-mission .wrapper .vission .vission-content .vission-mission-para {
+    width: 80%;
 }
-#vission-mission .wrapper .vission .vission-content .vission-heading{ 
+
+#vission-mission .wrapper .vission .vission-content .vission-heading {
     font-size: var(--fs-28);
 }
-#vission-mission .wrapper .vission .vission-content .vission-para{ 
-    width: 120%;
+
+#vission-mission .wrapper .vission .vission-content .vission-para {
+    width: 80%;
 }
-#vission-mission .wrapper .vission .vission-content .mission-heading{ 
+
+#vission-mission .wrapper .vission .vission-content .mission-heading {
     font-size: var(--fs-28);
 }
-#vission-mission .wrapper .vission .vission-content .mission-para{ 
-    width: 120%;
+
+#vission-mission .wrapper .vission .vission-content .mission-para {
+    width: 80%;
 }
-#vission-mission .wrapper .vission .vission-mission-img{
-    width:50%;
-    height: 20vh;
+
+#vission-mission .wrapper .vission .vission-mission-img {
+    width: 40%;
+    height: 350px;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     /* margin-right: 100px; */
-    background-color: bisque;
+    /* background-color: bisque; */
 }
-#vission-mission .wrapper .vission .vission-mission-img img{
-    width: 120%;
+
+#vission-mission .wrapper .vission .vission-mission-img img {
+    width: 300px;
+}
+
+
+
+
+
+
+
+/* media query*/
+
+/* about-us start */
+@media only screen and (max-width:1250px) {
+    #about-us {
+
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #about-us {
+        height: 500px;
+
+    }
+
+    #about-us .wrapper {
+        gap: 40px;
+    }
+
+    #about-us .wrapper .about-content h1 {
+        font-size: var(--fs-30);
+    }
+
+    #about-us .wrapper .about-img {
+        width: 80%;
+    }
+
+    #about-us .wrapper .about-img :nth-child(1),
+    #about-us .wrapper .about-img :nth-child(3),
+    #about-us .wrapper .about-img :nth-child(4) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:564px) {
+    #about-us .wrapper .about-content p {
+        font-size: var(--fs-14);
+        width: 80%;
+    }
+
+    #about-us .wrapper .about-content h1 {
+        font-size: var(--fs-24);
+    }
+
+    #about-us .wrapper .about-img img {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #about-us .wrapper .about-content h1 {
+        font-size: var(--fs-20);
+    }
+}
+
+/* about-us end */
+
+/* animal-compassion start */
+@media only screen and (max-width:1260px) {
+    #animal-compassion .wrapper {
+        gap: 50px;
+    }
+
+    #animal-compassion .wrapper .compassion-img img {
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #animal-compassion {
+        margin-top: 20px;
+        height: 75vh;
+    }
+
+    #animal-compassion .wrapper {
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+
+    #animal-compassion .wrapper .compassion-img {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #animal-compassion .wrapper .compassion-content {
+        align-items: center;
+    }
+
+    #animal-compassion .wrapper .compassion-content h2 {
+        text-align: center;
+        font-size: var(--fs-28);
+    }
+
+    #animal-compassion .wrapper .compassion-content p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:564px) {
+    #animal-compassion {
+        margin-top: 5px;
+    }
+    #animal-compassion .wrapper .compassion-content h2 {
+        text-align: center;
+        font-size: var(--fs-24);
+    }
+
+    #animal-compassion .wrapper .compassion-content p {
+        font-size: var(--fs-14);
+    }
+
+    #animal-compassion .wrapper .compassion-content .primary-btn {
+        font-size: var(--fs-14);
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #animal-compassion .wrapper .compassion-content h2 {
+        text-align: center;
+        font-size: var(--fs-20);
+    }
+
+    #animal-compassion .wrapper .compassion-img img {
+        width: 250px;
+    }
+}
+
+/* animal-compassion end */
+
+/* vission-mission start*/
+
+@media only screen and (max-width:1260px) {
+    #vission-mission .wrapper .vission .vission-mission-img img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+
+    #vission-mission {
+        height: auto;
+        margin-top:30px ;
+    }
+
+    #vission-mission .wrapper .vission {
+        flex-direction: column;
+
+    }
+
+    #vission-mission .wrapper .vission .vission-content {
+        align-items: center; 
+    }
+    #vission-mission .wrapper .vission .vission-content h1 {
+        text-align: center;
+        width: 100%;
+        
+    }
+    #vission-mission .wrapper .vission .vission-content .vission-mission-para {
+        text-align: center;
+        width: 100%;
+    }
+    #vission-mission .wrapper .vission .vission-content .vission-heading {
+        text-align: center;
+        width: 100%;
+    }
+    #vission-mission .wrapper .vission .vission-content .vission-para {
+        text-align: center; 
+        width: 100%;
+    }
+    #vission-mission .wrapper .vission .vission-content .mission-heading {
+        text-align: center; 
+        width: 100%;
+    }
+    #vission-mission .wrapper .vission .vission-content .mission-para {
+        text-align: center;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:564px) {
+    #vission-mission .wrapper .vission .vission-content h1 {
+        font-size: var(--fs-28);
+      
+
+    }
+    #vission-mission .wrapper .vission .vission-content .vission-heading {
+        font-size: var(--fs-24);
+        width: 100px;
+    }#vission-mission .wrapper .vission .vission-content .mission-heading {
+        font-size: var(--fs-24);
+        width: 100%;
+    }
+    #vission-mission .wrapper .vission .vission-content .vission-mission-para {
+        width: 200px;
+        font-size: var(--fs-14);
+    }
+    #vission-mission .wrapper .vission .vission-content .vission-para {
+        width: 200px;
+        font-size: var(--fs-14);
+    }
+    
+    #vission-mission .wrapper .vission .vission-content .mission-para {
+        width: 200px;
+        font-size: var(--fs-14);
+    }
+    #vission-mission .wrapper .vission .vission-mission-img img {
+        width: 280px;
+    }
+
+}
+@media only screen and (max-width:450px) {
+    #vission-mission .wrapper .vission .vission-content h1 {
+        font-size: var(--fs-20);
+        width: 200px;
+    }
+    #vission-mission .wrapper .vission .vission-content .vission-heading {
+        font-size: var(--fs-20);
+        width: 200px;
+    }#vission-mission .wrapper .vission .vission-content .mission-heading {
+        font-size: var(--fs-20);
+        width: 200px;
+    }
+    #vission-mission .wrapper .vission .vission-content .vission-mission-para {
+        width: 200px;
+        font-size: var(--fs-14);
+    }
+    #vission-mission .wrapper .vission .vission-content .vission-para {
+        width: 200px;
+        font-size: var(--fs-14);
+    }
+    
+    #vission-mission .wrapper .vission .vission-content .mission-para {
+        width: 200px;
+        font-size: var(--fs-14);
+    }
+    #vission-mission .wrapper .vission .vission-mission-img img {
+        width: 250px;
+    }
 }
