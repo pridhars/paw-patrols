@@ -61,17 +61,17 @@
  /* pet connections start  */
  #well-being {
      width: 100%;
-     height: auto;
+     height: 780px;
      /* background-color: blue; */
      display: flex;
      align-items: start;
      justify-content: center;
-     margin-top: 40px;
+     margin: 20px 0px 10px 0px;
      /* display: none; */
  }
 
  #well-being .wrapper {
-     height: auto;
+     height:100%;
      width: 80%;
      /* background-color: antiquewhite; */
      display: flex;
@@ -89,13 +89,13 @@
      justify-content: center;
  }
 
- #well-being .wrapper .pet-connection h2 {
+ #well-being .wrapper  h2 {
      font-size: var(--fs-30);
  }
 
  #well-being .wrapper .pet-connection-card {
      width: 100%;
-     height: auto;
+     height:100%;
      /* background-color: cadetblue; */
      display: flex;
      align-items: start;
@@ -186,7 +186,7 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     margin-top: 20px;
+     margin-top: 10px;
      /* display: none; */
  }
 
@@ -292,7 +292,7 @@
      width: 100%;
      height: 90vh;
      background-color: var(--tertiory-color);
-     margin-top: 60px;
+     margin-top: 10px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -338,16 +338,16 @@
  /*  reward & recognition end*/
 
  /* achived stories start*/
- #achived-stories {
+ /* #achived-stories {
      width: 100%;
-     height: 1000px;
-     /* background-color: chocolate; */
+     height: 100vh;
+     background-color: chocolate;
      display: flex;
      justify-content: center;
      align-items: center;
      gap: 30px;
      margin-top: 80px;
-     /* display: none; */
+     display: none;
  }
 
  #achived-stories .wrapper {
@@ -357,13 +357,13 @@
      justify-content: center;
      align-items: center;
      flex-direction: column;
-     /* background-color: burlywood; */
+     background-color: burlywood;
      gap: 30px;
  }
 
 
  #achived-stories .wrapper .achived-stories-content{
-    /* background-color: blue; */
+    background-color: blue;
     width: 100%;
     display: flex;
     align-items: center;
@@ -383,8 +383,8 @@
      justify-content: center;
      align-content: center;
      gap: 40px;
-     /* background-color: plum; */
-     /* margin-top: 20%; */
+     background-color: plum;
+     margin-top: 20%;
      flex-wrap: wrap;
 
  }
@@ -394,26 +394,105 @@
      justify-content: center;
      align-items: center;
      width: 30%;
-     height: 40%;
+     height: 50%;
      flex-direction: column;
-     gap: 30px;
-     padding: 10px 5px;
      background-color: var(--tertiory-color);
      border-radius: 8px;
 
  }
-
- #achived-stories .wrapper .story-card-one .card img {
+ #achived-stories .wrapper .story-card-one .card .story-image {
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #achived-stories .wrapper .story-card-one .card .story-image img {
      object-fit: cover;
-     width: 330px;
+     width: 100%;
+     height: 100%;
  }
 
- #achived-stories .wrapper .story-card-one .card p {
-     text-align: center;
- }
+ #achived-stories .wrapper .story-card-one .story-content{
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ } */
 
+#achived-stories{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* background-color: bisque; */
+}
+#achived-stories .wrapper{
+    width: 80%;
+    height: 95%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#achived-stories .wrapper h2{
+    width: 100%;
+    height: 20%;
+    font-size: var(--fs-30);
+    /* background-color:blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
+}
+#achived-stories .wrapper .story-card-one{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#achived-stories .wrapper .story-card-one .card{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+    background-color: var(--tertiory-color);
+}
+#achived-stories .wrapper .story-card-one .card .story-image{
+    width: 100%;
+    height: 80%;
+    /* background-color: black; */
+}
+#achived-stories .wrapper .story-card-one .card .story-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#achived-stories .wrapper .story-card-one .card .story-content{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
+#achived-stories .wrapper .story-card-one .card .story-content p{
+    text-align: center;
+    font-size: var(--fs-14);
+}
  /* media query */
 
  /* banner start */
@@ -572,7 +651,7 @@
 
      #well-being .wrapper .pet-connection-card .pet-card-one {
          width: 100%;
-         height: 45vh;
+         height: 43vh;
          /* background-color: aqua; */
      }
 
@@ -587,7 +666,7 @@
 
      #well-being .wrapper .pet-connection-card .pet-card-two {
          width: 100%;
-         height: 45vh;
+         height: 43vh;
          /* background-color: aqua; */
      }
 
@@ -598,7 +677,7 @@
 
      #well-being .wrapper .pet-connection-card .pet-card-three {
          width: 100%;
-         height: 45vh;
+         height: 43vh;
          /* background-color: aqua; */
      }
 
@@ -614,14 +693,14 @@
      }
  }
 
- @media only screen and (max-width:435px) {
+ @media only screen and (max-width:455px) {
      #well-being {
          height: 900px;
          /* background-color: aquamarine; */
      }
 
      #well-being .wrapper .pet-connection-card .pet-card-one {
-         height: 40vh;
+         height: 35vh;
      }
 
      #well-being .wrapper .pet-connection-card .pet-card-one p {
@@ -630,7 +709,7 @@
      }
 
      #well-being .wrapper .pet-connection-card .pet-card-two {
-         height: 40vh;
+         height: 35vh;
      }
 
      #well-being .wrapper .pet-connection-card .pet-card-two p {
@@ -639,7 +718,7 @@
      }
 
      #well-being .wrapper .pet-connection-card .pet-card-three {
-         height: 40vh;
+         height: 35vh;
      }
 
      #well-being .wrapper .pet-connection-card .pet-card-three p {
@@ -649,7 +728,7 @@
      }
  }
 
- @media only screen and (max-width:335px) {
+ /* @media only screen and (max-width:335px) {
 
      #well-being .wrapper .pet-connection-card .pet-card-one {
          height: 250px;
@@ -674,7 +753,7 @@
      #well-being .wrapper .pet-connection-card .pet-card-three p {
          margin-top: 10px;
      }
- }
+ } */
 
  /* Pet Connections end */
 
@@ -700,9 +779,9 @@
  }
 
  @media only screen and (max-width:757px) {
-    #happy-tail{
+    /* #happy-tail{
         margin-top: 40px;
-    }
+    } */
      #happy-tail .wrapper .tail-content h2 {
          font-size: var(--fs-24);
      }
@@ -758,9 +837,9 @@
  }
 
  @media only screen and (max-width:775px) {
-    #sustainable-care{
+    /* #sustainable-care{
         margin-top: 50px;
-    }
+    } */
      #sustainable-care .wrapper .sustainable-content h2 {
          font-size: var(--fs-24);
          text-align: center;
@@ -768,18 +847,18 @@
  }
 
  @media only screen and (max-width:564px) {
-    #sustainable-care{
+    /* #sustainable-care{
             margin-top: 40px;
-        }
+        } */
      #sustainable-care .wrapper .sustainable-content h2 {
          font-size: var(--fs-20);
      }
  }
 
  @media only screen and (max-width:437px) {
-    #sustainable-care{
+    /* #sustainable-care{
         margin-top: 20px;
-    }
+    } */
      #sustainable-care .wrapper .sustainable-content p {
          font-size: var(--fs-14);
      }
@@ -827,7 +906,7 @@
  /* reward & recognition end*/
 
  /* achived stories start*/
- @media only screen and (max-width:1380px) {
+ /* @media only screen and (max-width:1380px) {
     #achived-stories {
         width: auto;
         height: auto;
@@ -838,8 +917,14 @@
         width: auto;
         height: auto;
     }  
+ } */
+ /* @media only screen and (max-width:940px) {
+    #achived-stories {
+        flex-wrap: wrap;
+    }
  }
  @media only screen and (max-width:775px) {
+    
     #achived-stories .wrapper .achived-stories-content h2{
         font-size: var(--fs-24);
        
@@ -858,5 +943,39 @@
     #achived-stories .wrapper .story-card-one .card p {
         font-size: var(--fs-14);
     }
- }
+ } */
   /* achived stories end*/
+
+  /* achived stories start */
+  @media only screen and (max-width:1200px) {
+    #achived-stories {
+        height: auto;
+        margin: 10px 0px 20px 0px;
+    }
+    #achived-stories .wrapper .story-card-one .card{
+        width: 50%;
+      
+    }
+    #achived-stories .wrapper .story-card-one .card .story-image{
+        width: 100%;
+        height: 60%;
+    }
+    #achived-stories .wrapper .story-card-one .card .story-content{
+        height: 50%;
+    }
+  }
+  @media only screen and (max-width:900px) {
+    #achived-stories .wrapper h2{
+        font-size: var(--fs-28);
+    }
+  }
+  @media only screen and (max-width:600px) {
+    #achived-stories .wrapper .story-card-one .card{
+        width: 75%;
+        
+    }
+    #achived-stories .wrapper h2{
+        font-size: var(--fs-24);
+    }
+
+  }

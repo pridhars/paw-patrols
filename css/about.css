@@ -58,7 +58,7 @@
 /* animal-compassion start */
 #animal-compassion {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
@@ -80,12 +80,14 @@
 
 #animal-compassion .wrapper .compassion-img {
     width: 100%;
+    height: 50%;
     display: flex;
 
 }
 
 #animal-compassion .wrapper .compassion-img img {
     width: 60%;
+    height: 100%;
     /* background-color: beige; */
 }
 
@@ -192,10 +194,73 @@
 }
 
 
+/* contact-us */
+#contact-us{
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact-us .wrapper{
+    width: 80%;
+    height:350px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+#contact-us .wrapper .contact-content{
+    width: 50%;
+    height: 100%;   
+    /* background-color: rgb(201, 218, 218); */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#contact-us .wrapper .contact-content h2{
+    font-size: var(--fs-30);
 
+}
+#contact-us .wrapper .contact-content p{
+    width: 80%;
+}
+#contact-us .wrapper .contact-content form{
+    width: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 
-
-
+}
+#contact-us .wrapper .contact-content form input{
+    width: 100%;
+    height: 30px;
+}
+#contact-us .wrapper .contact-content form  .primary-btn{
+    width: 50%;
+}
+#contact-us .wrapper .contact-content form .text{
+    height: 70px;
+    width: 105%;
+    /* background-color: aqua; */
+}
+#contact-us .wrapper .map-container{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: chocolate; */
+}
+#contact-us .wrapper .map-container iframe{
+    width: 100%;
+    height: 100%;
+}
 
 /* media query*/
 
@@ -434,5 +499,48 @@
     }
     #vission-mission .wrapper .vission .vission-mission-img img {
         width: 250px;
+    }
+}
+/* mission ends */
+
+/* contact us start */
+@media only screen and (max-width:800px) {
+    #contact-us{
+        height: 700px;
+        margin: 10px 0px 20px 0px;
+    }
+    #contact-us .wrapper{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #contact-us .wrapper .contact-content{
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+}
+#contact-us .wrapper .contact-content h2{
+    font-size: var(--fs-28);
+
+}
+#contact-us .wrapper .map-container{
+    width: 80%;
+}
+#contact-us .wrapper .map-container iframe{
+    width: 100%;
+    height: 250px;
+}
+}
+@media only screen and (max-width:564px) {
+    #contact-us .wrapper .contact-content h2{
+        font-size: var(--fs-24);
+    
+    }
+}
+@media only screen and (max-width:400px) {
+    #contact-us .wrapper .contact-content h2{
+        font-size: var(--fs-20);
+    
     }
 }
