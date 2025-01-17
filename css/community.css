@@ -61,7 +61,7 @@
  /* pet connections start  */
  #well-being {
      width: 100%;
-     height: 780px;
+     height: 100%;
      /* background-color: blue; */
      display: flex;
      align-items: start;
@@ -695,7 +695,7 @@
 
  @media only screen and (max-width:455px) {
      #well-being {
-         height: 900px;
+         height: 850px;
          /* background-color: aquamarine; */
      }
 

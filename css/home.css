@@ -373,7 +373,7 @@
 }
 
 #volunteer .wrapper {
-    height: 30vh;
+    height: 80vh;
     width: 80%;
     /* background-color: rgb(255, 0, 0); */
     display: flex;
@@ -383,7 +383,7 @@
 }
 
 #volunteer .wrapper .volunteer-training {
-    height: 40vh;
+    height: 10vh;
     width: 90%;
     /* background-color: rgb(180, 155, 155); */
     display: flex;
@@ -406,7 +406,7 @@
 
 #volunteer .wrapper .volunteer-img {
     width: 50%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     /* background-color: cadetblue; */
     justify-content: center;
@@ -436,6 +436,10 @@
 #ngo .wrapper {
     width: 80%;
     height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #ngo .wrapper h2 {
@@ -452,7 +456,7 @@
     align-content: center;
     justify-content: center;
     gap: 70px;
-    margin-top: 70px;
+    margin-top: 20px;
     flex-wrap: wrap;
 
     /* background-color: yellowgreen; */
@@ -1287,9 +1291,10 @@ color:var(--secondary-color);
 }
 
 @media only screen and (max-width:820px) {
+    
     #community-safety .wrapper {
         flex-direction: column-reverse;
-        margin-top: 80px;
+        /* margin-top: 80px; */
         gap: 30px;
     }
 
@@ -1375,6 +1380,9 @@ color:var(--secondary-color);
 }
 
 @media only screen and (max-width:820px) {
+    #volunteer{
+        margin-bottom: 20px;
+    }
     #volunteer .wrapper {
         flex-direction: column;
     }
@@ -1414,6 +1422,7 @@ color:var(--secondary-color);
 }
 
 @media only screen and (max-width:403px) {
+    
     #volunteer .wrapper .volunteer-training h2 {
         font-size: var(--fs-20);
     }
@@ -1441,7 +1450,7 @@ color:var(--secondary-color);
 
     #ngo {
         height: auto;
-        margin-top: 210px;
+        margin-top: 20px;
         /* background-color: aqua; */
     }
 
@@ -1596,7 +1605,7 @@ color:var(--secondary-color);
     }
 }
 
-@media only screen and (max-width:820px) {
+@media only screen and (max-width:820px) { 
     #track .wrapper p {
         font-size: var(--fs-16);
     }
@@ -1687,7 +1696,7 @@ color:var(--secondary-color);
 
 @media only screen and (max-width:820px) {
     #fund {
-        height: 40vh;
+        height: 45vh;
     }
 
     #fund .wrapper {

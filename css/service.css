@@ -112,7 +112,7 @@
      height: 35%;
      flex-direction: column;
      gap: 30px;
-     margin-top: 50px;
+     /* margin-top: 50px; */
      background-color: var(--tertiory-color);
      border-radius: 0px 0px 4px 4px;
      -webkit-border-radius: 0px 0px 4px 4px;
