@@ -261,7 +261,7 @@ footer .footer-wrapper .footer-container .footer-info {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 footer .footer-wrapper .footer-container .footer-info ul {
@@ -340,10 +340,12 @@ footer .footer-wrapper .privacy-policy ul li a {
 
     header nav .wrapper ul li a {
         color: var(--primary-color);
+        padding: 0px;
     }
 
     header nav .wrapper ul li .active {
         color: var(--primary-color);
+        padding: 0px;
       border-bottom: 2px solid var(--primary-color);
 
     }
@@ -428,7 +430,7 @@ footer .footer-wrapper .privacy-policy ul li a {
 
 @media only screen and (max-width:980px) {
     footer {
-        height: 80vh;
+        height: 70vh;
     }
 
     footer .footer-wrapper {
@@ -473,7 +475,7 @@ footer .footer-wrapper .privacy-policy ul li a {
         width: 48%;
         height: 100%;
         gap: 15px;
-        justify-content: ce;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
     }
