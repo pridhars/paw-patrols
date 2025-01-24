@@ -261,15 +261,20 @@ footer .footer-wrapper .footer-container .footer-info {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 
 footer .footer-wrapper .footer-container .footer-info ul {
     list-style-type: none;
+    
 }
 
 footer .footer-wrapper .footer-container .footer-info ul li {
-
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: start;
+    align-items: start;
     color: var(--tertiory-color);
 
 }
@@ -444,15 +449,18 @@ footer .footer-wrapper .privacy-policy ul li a {
 
     footer .footer-wrapper .footer-container .footer-info {
         width: 100%;
+        margin: 20px 20px;
     }
-
+    footer .footer-wrapper .privacy-policy{
+        margin: 20px 20px;
+    }
     footer .footer-wrapper .privacy-policy ul {
         flex-direction: column;
         gap: 10px;
     }
 }
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:712px) {
     footer {
         height: 100vh;
     }
@@ -472,16 +480,31 @@ footer .footer-wrapper .privacy-policy ul li a {
     }
 
     footer .footer-wrapper .footer-container .footer-info {
-        width: 48%;
+        width: 60%;
         height: 100%;
-        gap: 15px;
+        /* background-color: #EDDCD1; */
+        gap: 20px;
+        display:flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-
+    footer .footer-wrapper .footer-container .footer-info ul {
+        width: 100%;
+        height: auto;
+        list-style-type: none;
+        /* background-color: aquamarine; */
+        
+    }
     footer .footer-wrapper .footer-container .footer-info ul li {
+        width: 100%;
+        height: 100%;
         gap: 20px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* background-color: aqua; */
     }
 
     footer .footer-wrapper .privacy-policy {
@@ -494,17 +517,27 @@ footer .footer-wrapper .privacy-policy ul li a {
     }
 }
 
-@media only screen and (max-width:380px) {
+@media only screen and (max-width:450px) {
     footer {
         height: 700px;
     }
-
-    footer .footer-wrapper .footer-container .footer-info {
-        gap: 10px;
+    footer .footer-wrapper .footer-container .subscribe {
+        width: 100%;
+        height: auto;
+    }
+    footer .footer-wrapper .footer-container .subscribe .submit {
+        width: 100%;
     }
 
+    footer .footer-wrapper .footer-container .footer-info {
+        gap: 30px;
+        
+        
+    }
+    
     footer .footer-wrapper .privacy-policy {
         width: 100%;
+        margin: 40px 40px;
 
     }
 
