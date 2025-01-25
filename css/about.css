@@ -70,7 +70,7 @@
 }
 
 #animal-compassion .wrapper {
-    width: 65%;
+    width: 80%;
     height: 70vh;
     /* background-color: rgb(4, 38, 96); */
     display: flex;
@@ -114,7 +114,7 @@
 /* vission-mission start*/
 #vission-mission {
     width: 100%;
-    height: 500px;
+    height: 380px;
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
@@ -182,7 +182,7 @@
 
 #vission-mission .wrapper .vission .vission-mission-img {
     width: 40%;
-    height: 350px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -389,6 +389,8 @@ justify-content: center;
 
     #animal-compassion .wrapper .compassion-img img {
         width: 250px;
+        object-fit: cover;
+        object-position: right;
     }
 }
 
